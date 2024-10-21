@@ -1,0 +1,24 @@
+.seat {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 5px;
+  text-align: center;
+  line-height: 40px;
+  border: 2px solid #000;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.available {
+  background-color: #4caf50;
+}
+
+.booked {
+  background-color: #f44336;
+  cursor: not-allowed;
+}
+
+.seat:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
